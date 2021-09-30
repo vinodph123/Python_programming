@@ -18,7 +18,11 @@ This file is written to understand how to configure VS code software to Git repo
 
 9) Push the the commited file then We will see in our remote git repo as created new branch and asking for pull and pull but We can delete the new branch from branch tab
 
+<<<<<<< HEAD
 10) In VS code software left corner click on head(master) icon and select proper branch listed based on main branch(origin/main) hex code mentioned in git repo
+=======
+10) In VS code software left corner click on head(master) icon and select proper branch listed based on main branch hex code mentioned in git repo
+>>>>>>> 61f1b7a78cef65a64fd1fb47d8267961300d3794
 
 11) After that we can create our own files and folders for further push and pull goes on .......!
 
