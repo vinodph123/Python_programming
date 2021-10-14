@@ -1,4 +1,4 @@
-
+# Decorator concept practice
 
 class Testing_decorator:
 
@@ -20,9 +20,9 @@ def dec_fun():
 def test_dec(test):
 
     def wrap():
-        print('Before marriage ')
+        print('Before ')
         test()
-        print('After marriage wawaawaawawaaaaaaaaaaaa/...!')
+        print('wawaawaawawaaaaaaaaaaaa/...!')
     return wrap
 
 @test_dec
