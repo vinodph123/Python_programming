@@ -8,6 +8,7 @@
 # This is the list used to build the Tic Tac Toe board
 b = ['', '_', '_', '_', '_', '_', '_', '_', '_', '_']
 
+
 # This function is used to display the board
 def display_board(board):
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
@@ -15,6 +16,7 @@ def display_board(board):
     print(' ' + board[4] + ' | ' + board[5] + ' | ' + board[6])
     print('-----------')
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
+
 
 # This function is used to choose user selection either 'X' or 'O'
 def player_choice():
@@ -26,6 +28,7 @@ def player_choice():
         else:
             break
     return choice
+
 
 # This function is used to check whether any conditions met or not either for 'X' or 'O'
 def board_check(b):
@@ -70,6 +73,7 @@ def index_select():
             continue
     return choice
 
+
 # Main driver function 
 def main():
     print('Welcome to Tic Toc Toe Game ')
@@ -98,10 +102,6 @@ def main():
             flag = 1
             game_on = board_check(b)
             continue
-
-        #game_on = board_check(b)
-        #if not game_on:
-            #display_board(b)
 
 
 if __name__ == '__main__':
